@@ -15,6 +15,16 @@
       "request": "launch",
       "preLaunchTask": "npm: test",
       "url": "http://localhost:9876/debug.html"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-CrudSpringApplication<crud-spring>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.pedro.crudspring.CrudSpringApplication",
+      "projectName": "crud-spring",
+      "args": ""
     }
   ]
 }
